@@ -7,6 +7,8 @@ from .equations import (
     OrnsteinUhlenbeck,
     Quadratic_gravity,
     QuadraticGravity,
+    Gravity_7D,
+    Gravity7D
 )
 from .ensemble import TrajectoryEnsemble
 from .scale_factor_calculator import Scale_factor_calculator
@@ -27,4 +29,6 @@ __all__ = [
     "Scale_factor_calculator",
     "Scheme",
     "TrajectoryEnsemble",
+    "Gravity_7D",
+    "Gravity7D",
 ]
